@@ -1,0 +1,13 @@
+doctype html 
+html 
+  head 
+    style 
+      include ../public/css/sso.css
+  body 
+    .container
+      div 
+        h1 Welcome
+        form(method="POST")
+          input#username(type="text" placeholder="Username")
+          input#password(type="password" placeholder="Password")
+          input#submit(type="submit" value="Log in")

@@ -1,0 +1,21 @@
+{
+  "name": "interceptor-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mfa.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "start": "node index.js"
+  },
+  "author": "Spencer Colton",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.0"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.3",
+    "pug": "^3.0.2",
+    "wait-on": "^6.0.1"
+  }
+}
